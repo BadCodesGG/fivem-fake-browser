@@ -21,3 +21,8 @@ Feel free to create your own way of opening this whether it's through your in-ga
 ```lua
 TriggerEvent("fivem-tablet:open-tablet", "browser")
 ```
+
+#### Examples
+![Browser Screenshot 1](https://i.ibb.co/R0KP0gf/image.png)
+![Browser Screenshot 2](https://i.ibb.co/bWSDgrs/image.png)
+![Browser Screenshot 3](https://i.ibb.co/L1DG6D8/image.png)
