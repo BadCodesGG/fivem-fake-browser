@@ -1,0 +1,318 @@
+body .browser-wrapper {
+	font-family: 'Lato', BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Ubuntu, Arial, sans-serif;
+}
+
+.browser-wrapper {
+	background: #dee1e6;
+	width: 35vw;
+	height: 100%;
+	margin: 0 auto;
+	position: relative;
+	border-radius: 5px;
+	box-shadow: 0 2px 5px rgba(0,0,0,0.25);
+}
+.browser-wrapper .browser-header {
+	background: #dee1e6;
+	border-radius: 10px 10px 0 0;
+	vertical-align: middle;
+}
+.browser-wrapper .browser-header .browser-buttons {
+	vertical-align: middle;
+	display: inline-block;
+	width: 65px;
+	padding-left: 1%;
+}
+.browser-wrapper .browser-header .browser-buttons span {
+	display: inline-block;
+	vertical-align: middle;
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	padding: 0;
+	margin: 3px;
+}
+.browser-wrapper .browser-header .browser-buttons span:hover {
+	cursor: pointer;
+}
+.browser-wrapper .browser-header .browser-buttons span:nth-child(1) {
+	background: #fb5a59;
+}
+.browser-wrapper .browser-header .browser-buttons span:nth-child(2) {
+	background: #ffc139;
+}
+.browser-wrapper .browser-header .browser-buttons span:nth-child(3) {
+	background: #60d045;
+}
+.browser-wrapper .browser-header .browser-tabs {
+	vertical-align: middle;
+	display: inline-block;
+	margin-top: 7.5px;
+}
+.browser-wrapper .browser-header .browser-tabs .tab {
+	padding: 14px 30px 14px 12px;
+	border-radius: 5px 5px 0 0;
+	background: transparent;
+	width: 100px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: inline-block;
+	font-size: 14px;
+	position: relative;
+	margin-left: -7px;
+	left: 7px;
+	bottom: -2px;
+	z-index: 0;
+	transition: 100ms ease;
+}
+.browser-wrapper .browser-header .browser-tabs .tab .fa-times {
+	position: absolute;
+	right: 0;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+.browser-wrapper .browser-header .browser-tabs .tab:after {
+	content: '';
+	height: 50%;
+	width: 2px;
+	background: #babcbe;
+	position: absolute;
+	right: 0;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	transition: 100ms ease;
+	opacity: 1;
+}
+.browser-wrapper .browser-header .browser-tabs .tab i {
+	margin-right: 7px;
+	font-size: 16px;
+}
+.browser-wrapper .browser-header .browser-tabs .tab span {
+	font-size: 16px;
+	margin-left: 7px;
+}
+.browser-wrapper .browser-header .browser-tabs .tab.tab-active {
+	background: #fff;
+	box-shadow: 0 1px 5px rgba(25,25,25,0.15);
+	z-index: 1;
+}
+.browser-wrapper .browser-header .browser-tabs .tab.tab-active:after {
+	opacity: 0;
+}
+.browser-wrapper .browser-header .browser-tabs .tab.tab-active:hover {
+	background: #fff;
+}
+.browser-wrapper .browser-header .browser-tabs .tab:hover {
+	cursor: pointer;
+	background: #f1f3f4;
+}
+.browser-wrapper .browser-header .browser-tabs .tab:hover:after {
+	opacity: 0;
+}
+.browser-wrapper .browser-toolbar {
+	background: #fff;
+	padding: 1%;
+	position: relative;
+	z-index: 2;
+	border-bottom: 1px solid #dee1e6;
+}
+.browser-wrapper .browser-toolbar .browser-toolbar-buttons {
+	display: inline-block;
+	color: #333;
+}
+.browser-wrapper .browser-toolbar .browser-toolbar-buttons span i {
+	padding: 5px;
+	border-radius: 50%;
+}
+.browser-wrapper .browser-toolbar .browser-toolbar-buttons span:hover {
+	cursor: pointer;
+}
+.browser-wrapper .browser-toolbar .browser-toolbar-buttons span:hover i {
+	background: #dee1e6;
+}
+.browser-wrapper .browser-toolbar .browser-toolbar-input {
+	display: inline-block;
+	width: 80%;
+	background: #dee1e6;
+	border-radius: 10px;
+	padding: 7.5px 15px;
+}
+.browser-wrapper .browser-toolbar .browser-toolbar-input span {
+	display: inline-block;
+	font-size: 14px;
+}
+.browser-wrapper .browser-toolbar .browser-toolbar-input span:first-child {
+	display: inline-block;
+	margin-right: 10px;
+	font-size: 12px;
+}
+.browser-wrapper .browser-toolbar .browser-toolbar-menu {
+	display: inline-block;
+	vertical-align: middle;
+	float: right;
+}
+.browser-wrapper .browser-toolbar .browser-toolbar-menu div {
+	padding: 5px 13px;
+	border-radius: 50%;
+}
+.browser-wrapper .browser-toolbar .browser-toolbar-menu div span {
+	width: 2px;
+	height: 2px;
+	border-radius: 50%;
+	background: #e8eaed;
+	display: block;
+	margin-bottom: 2px;
+	padding: 1.5px;
+	background: #666;
+}
+.browser-wrapper .browser-toolbar .browser-toolbar-menu div:hover {
+	cursor: pointer;
+	background: #dee1e6;
+}
+.browser-wrapper .browser-content {
+	height: 50vh;
+	overflow-y: auto;
+	background: #fff;
+}
+.browser-wrapper .browser-content footer {
+	margin-top: 50px;
+	background: #333;
+	padding: 25px;
+	text-align: center;
+}
+.browser-wrapper .browser-content footer.footer {
+	margin-bottom: 0;
+}
+.browser-wrapper .browser-content footer.footer p {
+	color: #fff;
+	font-size: 10px !important;
+	margin-bottom: 0 !important;
+}
+.browser-wrapper .browser-content img {
+	width: 100%;
+	height: auto;
+}
+.browser-wrapper .browser-content h1 {
+	font-size: 24px;
+	margin-bottom: 10px;
+	font-weight: bold;
+}
+.browser-wrapper .browser-content h2 {
+	font-size: 22px;
+	margin-bottom: 10px;
+	font-weight: bold;
+}
+.browser-wrapper .browser-content h3 {
+	font-size: 20px;
+	margin-bottom: 10px;
+	font-weight: bold;
+}
+.browser-wrapper .browser-content p {
+	font-size: 16px;
+	line-height: 150%;
+	margin-bottom: 5px;
+}
+.browser-wrapper .browser-content .bold {
+	font-weight: bold;
+}
+.browser-wrapper .browser-content .red {
+	color: #f00;
+}
+.browser-wrapper .browser-content .italic {
+	font-style: italic;
+}
+.browser-wrapper .browser-content .pr-2 {
+	padding-right: 20px !important;
+}
+.browser-wrapper .browser-content .mb-0 {
+	margin-bottom: 0 !important;
+}
+.browser-wrapper .browser-content ul.frenzy-ul {
+	padding: 0 10px;
+}
+.browser-wrapper .browser-content ul.frenzy-ul li {
+	list-style-type: disc;
+	padding: 5px;
+	margin-left: 35px;
+}
+.browser-wrapper .browser-content ul.frenzy-ul li ul {
+	margin-top: 10px;
+}
+.browser-wrapper .browser-content ul.frenzy-ul li ul li {
+	list-style-type: circle;
+}
+.browser-wrapper .browser-content .flex-container {
+	display: flex;
+	margin-bottom: 25px;
+}
+.browser-wrapper .browser-content .flex-container .flex-item-12 {
+	width: 100%;
+	flex: 0 1 100%;
+}
+.browser-wrapper .browser-content .flex-container .flex-item-7 {
+	width: 66.6666667%;
+	flex: 0 1 66.6666667%;
+}
+.browser-wrapper .browser-content .flex-container .flex-item-7 {
+	width: 58.3333333%;
+	flex: 0 1 58.3333333%;
+}
+.browser-wrapper .browser-content .flex-container .flex-item-6 {
+	width: 50%;
+	flex: 0 1 50%;
+}
+.browser-wrapper .browser-content .flex-container .flex-item-5 {
+	width: 41.6666667%;
+	flex: 0 1 41.6666667%;
+}
+.browser-wrapper .browser-content .flex-container .flex-item-4 {
+	width: 33.333333%;
+	flex: 0 1 33.333333%;
+}
+.browser-wrapper .browser-content .browser-content-item {
+	display: none;
+}
+.browser-wrapper .browser-content .browser-content-item.active {
+	display: block;
+}
+.browser-wrapper .browser-content .browser-content-item .browser-content-item-container {
+	padding: 25px;
+}
+.browser-wrapper .browser-content .browser-content-item.six-eight footer {
+	margin-top: 0;
+}
+.browser-wrapper .browser-content .browser-content-item.six-eight p {
+	font-size: 14px;
+	margin-bottom: 0.75rem;
+}
+.browser-wrapper .browser-content .browser-content-item.six-eight .six-eight-bg-footer {
+	padding: 200px 0;
+	background-size: cover !important;
+	background-position: center center !important;
+	background-repeat: no-repeat !important;
+}
+.browser-wrapper .browser-content .browser-content-item.six-eight .six-eight-bg {
+	padding: 25px 0;
+	background-size: cover !important;
+	background-position: center center !important;
+	background-repeat: no-repeat !important;
+}
+.browser-wrapper .browser-content .browser-content-item.six-eight .six-eight-bg p, .browser-wrapper .browser-content .browser-content-item.six-eight .six-eight-bg li, .browser-wrapper .browser-content .browser-content-item.six-eight .six-eight-bg span {
+	color: #fff;
+}
+.browser-wrapper .browser-content .browser-content-item.six-eight .six-eight-bg ul {
+	margin-top: 2rem;
+}
+.browser-wrapper .browser-content .browser-content-item.six-eight .six-eight-bg ul li {
+	margin-bottom: 0.75rem;
+	font-weight: 200;
+}
+.browser-wrapper .browser-content .browser-content-item.six-eight .six-eight-bg ul li:last-child {
+	margin-bottom: 0;
+}
+.browser-wrapper .browser-content .browser-content-item .ls-gov-bg {
+	padding: 100px 0;
+	background-size: contain !important;
+	background-position: center center !important;
+	background-repeat: no-repeat !important;
+}

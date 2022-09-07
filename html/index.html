@@ -1,0 +1,207 @@
+<head>
+	<script src="nui://game/ui/jquery.js" type="text/javascript"></script>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+	<link rel="stylesheet" href="./css/styles.css" type="text/css">
+	<link rel="stylesheet" href="./css/browser.css" type="text/css">
+	<link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+</head>
+
+<body>
+	<div class="browser-container">
+		<div class="browser-wrapper">
+			<div class="browser-header">
+				<div class="browser-buttons">
+					<span class="browser-button"></span>
+					<span class="browser-button"></span>
+					<span class="browser-button"></span>
+				</div>
+				<div class="browser-tabs">
+					<div class="tab tab-active" data-index="0">
+						<i class="fas fa-home"></i>
+						<span data-url="https://lossantos.gov.com">Welcome to Los Santos</span>
+						<i class="fas fa-times"></i>
+					</div>
+					<div class="tab" data-index="1">
+						<i class="fas fa-gavel"></i>
+						<span data-url="https://doj.gov.com">LS | DOJ</span>
+						<i class="fas fa-times"></i>
+					</div>
+					<div class="tab" data-index="2">
+						<i class="fas fa-car"></i>
+						<span data-url="https://joyrides.com">JoyRides | LS Automotive</span>
+						<i class="fas fa-times"></i>
+					</div>
+					<div class="tab" data-index="3">
+						<i class="fas fa-sign"></i>
+						<span data-url="https://dynasty8realestate.com">Dynasty8 | LS Real Estate</span>
+						<i class="fas fa-times"></i>
+					</div>
+					<div class="tab" data-index="4">
+						<i class="fas fa-wrench"></i>
+						<span data-url="https://lstuner.com">Tuner | LS Tuner Shop</span>
+						<i class="fas fa-times"></i>
+					</div>
+					<div class="tab" data-index="5">
+						<i class="fas fa-cogs"></i>
+						<span data-url="https://sixeighttuner.com">Six Eight | LS Tuner Shop</span>
+						<i class="fas fa-times"></i>
+					</div>
+				</div>
+			</div>
+			<div class="browser-toolbar">
+				<div class="browser-toolbar-buttons">
+					<span><i class="fas fa-arrow-left"></i></span>
+					<span><i class="fas fa-arrow-right"></i></span>
+					<span><i class="fas fa-redo-alt"></i></span>
+				</div>
+				<div class="browser-toolbar-input">
+					<span><i class="fas fa-lock"></i></span>
+					<span class="url">https://lossantos.gov.com</span>
+				</div>
+				<div class="browser-toolbar-menu">
+					<div>
+						<span></span>
+						<span></span>
+						<span></span>
+					</div>
+				</div>
+			</div>
+			<div class="browser-content">
+				<div class="browser-content-item active">
+					<img src="//i.ibb.co/PzCtX7D/header-01.jpg" />
+					<div class="browser-content-item-container">
+						<div class="flex-container">
+							<div class="flex-item-12">
+								<h1>Welcome to Los Santos</h1>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tempor dapibus velit non commodo. Phasellus aliquet accumsan enim, nec pellentesque mauris. Donec egestas nulla sit amet metus pellentesque, egestas fringilla odio rhoncus. Aliquam vehicula, ante ut porttitor congue, dui elit ornare lectus, ut tristique velit erat vel lorem. Phasellus a porta sapien. Fusce aliquam arcu ex, condimentum varius nulla vulputate vitae. Fusce at tellus at nunc varius finibus. Maecenas sit amet hendrerit tortor. Nam rhoncus, orci sit amet auctor gravida, nulla turpis cursus nisi, at bibendum massa ipsum quis est. Ut velit augue, fermentum et lorem a, tempus suscipit mi. Sed eu elementum ante. Integer in mauris egestas, fringilla nibh ac, pretium sem. Duis finibus, dolor eu fermentum ullamcorper, risus felis vulputate sapien, id auctor augue sem a urna. Fusce quis ullamcorper lorem, nec ultricies nunc.</p>
+							</div>
+						</div>
+						<div class="flex-container">
+							<div class="flex-item-8 pr-2">
+								<h2>Looking for a job?</h2>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tempor dapibus velit non commodo. Phasellus aliquet accumsan enim, nec pellentesque mauris.</p>
+								<p class="bold">List of our Current Jobs:</p>
+								<div class="flex-container">
+									<ul class="flex-item-6 frenzy-ul">
+										<li>Law Enforcement Officer</li>
+										<li>Department of Corrections</li>
+										<li>Emergency Medical Services
+											<ul>
+												<li>EMT</li>
+												<li>Doctor</li>
+											</ul>
+										</li>
+										<li>Department of Justice
+											<ul>
+												<li>Judge</li>
+												<li>Lawyer</li>
+												<li>District Attorney</li>
+											</ul>
+										</li>
+									</ul>
+									<ul class="flex-item-6 frenzy-ul">
+										<li>Car Salesman</li>
+										<li>Real Estate Agent</li>
+										<li>Towing</li>
+										<li>Truck Driver</li>
+										<li>Trashman</li>
+										<li>Fisherman</li>
+										<li>News Reporter</li>
+										<li>Taxi Driver</li>
+									</ul>
+									</ul>
+								</div>
+							</div>
+							<div class="flex-item-4">
+								<div class="ls-carousel-job">
+									<img src="//i.ibb.co/2yf7xDb/ls-job-1.jpg" />
+									<img src="//i.ibb.co/M53MSH9/ls-job-2.jpg" />
+									<img src="//i.ibb.co/85vbsQw/ls-job-3.jpg" />
+									<img src="//i.ibb.co/6nrfq6d/ls-job-4.jpg" />
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="browser-content-item-fullwidth ls-gov-bg" style="background: url(//i.ibb.co/ZTKg50h/ls-content-bg.png)">
+					</div>
+					<footer class="footer flex-container">
+						<div class="flex-item-12">
+							<p>Copyright &copy; 2020 San Andreas, Los Santos. All rights reserved.</p>
+						</div>
+					</footer>
+				</div>
+				<div class="browser-content-item">
+					<img src="//i.ibb.co/tQvcGJD/ls-doj-header.png" />
+				</div>
+				<div class="browser-content-item">
+					<h1>Joy Rides</h1>
+				</div>
+				<div class="browser-content-item">
+					<img src="//i.ibb.co/dK2k9RL/dynasty-top-bg.png" />
+					<div class="browser-content-item-fullwidth dynasty-bg" style="background: url(//i.ibb.co/qJbwvNv/dynasty-mid-bg.png)">
+						<div class="browser-content-item-container">
+							<div class="flex-container">
+								<div class="flex-item-7 pr-2">
+									<p class="italic">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tempor dapibus velit non commodo. Phasellus aliquet accumsan enim, nec pellentesque mauris.</p>
+									<ul>
+										<li>Firstname <span class="italic">"Nickname"</span> Lastname <span class="italic bold">6618017190</span></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+					<footer class="footer flex-container">
+						<div class="flex-item-12">
+							<p>Copyright &copy; 2020 Dynasty8 Real Estate. All rights reserved.</p>
+						</div>
+					</footer>
+				</div>
+				<div class="browser-content-item">
+					<h1>Tuner Shop</h1>
+				</div>
+				<div class="browser-content-item six-eight">
+					<img src="//i.ibb.co/cy0PpQR/six-eight-header.png" />
+					<div class="browser-content-item-container">
+						<div class="flex-container mb-0">
+							<div class="flex-item-7 pr-2">
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tempor dapibus velit non commodo. Phasellus aliquet accumsan enim, nec pellentesque mauris.</p>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tempor dapibus velit non commodo. Phasellus aliquet accumsan enim, nec pellentesque mauris. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tempor dapibus velit non commodo. Phasellus aliquet accumsan enim, nec pellentesque mauris.</p>
+								<ul>
+									<li>Firstname <span class="italic">"Nickname"</span> Lastname <span class="italic bold">6618017190</span></li>
+								</ul>
+							</div>
+							<div class="flex-item-5">
+								<img src="//i.ibb.co/H7WYfLc/six-eight-section-one-photo.png" />
+							</div>
+						</div>
+					</div>
+					<div class="browser-content-item-fullwidth six-eight-bg" style="background: url(//i.ibb.co/PxBGYWq/six-eight-mid-bg.png)">
+						<div class="browser-content-item-container">
+							<div class="flex-container">
+								<div class="flex-item-7 pr-2">
+									<p class="italic">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tempor dapibus velit non commodo. Phasellus aliquet accumsan enim, nec pellentesque mauris.</p>
+									<ul>
+										<li>Firstname <span class="italic">"Nickname"</span> Lastname <span class="italic bold">6618017190</span></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="browser-content-item-fullwidth six-eight-bg-footer" style="background: url(//i.ibb.co/VVnbHzF/six-eight-footer.png)"></div>
+					<footer class="footer flex-container">
+						<div class="flex-item-12">
+							<p>Copyright &copy; 2020 Six-Eight Tuner Shop. All rights reserved.</p>
+						</div>
+					</footer>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+	<script src="./js/scripts.js" type="text/javascript"></script>
+	<script src="./js/browser.js" type="text/javascript"></script>
+</body>
