@@ -69,7 +69,6 @@ function ToggleTablet(toggle)
 
 			while tablet do
 				Citizen.Wait(100)
-				print('tablet', tablet)
 				playerPed = PlayerPedId()
 
 				if not IsEntityPlayingAnim(playerPed, tabletDict, tabletAnim, 3) then
